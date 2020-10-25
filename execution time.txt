@@ -1,0 +1,30 @@
+Execution time of mandelmovie for each of 1, 2, 3, 4, 6 and 12 processes running simultaneously.
+ 1 process(s) take(s) time 0.0035180
+ 2 process(s) take(s) time 0.0039940
+ 3 process(s) take(s) time 0.0040160
+ 4 process(s) take(s) time 0.0046220
+ 6 process(s) take(s) time 0.0047650
+12 process(s) take(s) time 0.0047890
+
+
+
+Execution time of mandel using 1, 2, 4, 6, 12, 18 and 24 threads,
+For the configuration, A: mandel -x -0.5 -y 0.5 -s 1 -m 2000
+ 1 thread(s) take(s) time 1.2087570
+ 2 thread(s) take(s) time 1.2161090
+ 4 thread(s) take(s) time 1.2291430
+ 6 thread(s) take(s) time 1.2148100
+12 thread(s) take(s) time 1.2149000
+18 thread(s) take(s) time 1.2190060
+24 thread(s) take(s) time 1.2149940
+
+For the configuration, A: mandel -x 0.2869325 -y 0.0142905 -s 0.000001 -W 1024 -H 1024 -m 1000
+ 1 thread(s) take(s) time 2.9367550
+ 2 thread(s) take(s) time 3.0147620
+ 4 thread(s) take(s) time 3.0302890
+ 6 thread(s) take(s) time 2.9814750
+12 thread(s) take(s) time 2.9897600
+18 thread(s) take(s) time 2.9814290
+24 thread(s) take(s) time 3.0267170
+
+
